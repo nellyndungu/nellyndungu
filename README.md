@@ -34,8 +34,8 @@
 
 ### 📝 Languages
 
-<!-- LANGUAGES-START -->
-<!-- LANGUAGES-END -->
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nellyndungu&layout=compact&theme=radical&langs_count=100)
+
 
 
 ---

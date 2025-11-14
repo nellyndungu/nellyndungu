@@ -30,9 +30,9 @@
 
 ### 📊 GitHub Stats
 
-![Score](https://github-readme-stats.vercel.app/api?username=nellyndungu&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nellyndungu&show_icons=true&theme=radical)
 
-### 📝 Languages
+### 📝 Languages Used
 
 ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nellyndungu&layout=compact&theme=radical&langs_count=100)
 

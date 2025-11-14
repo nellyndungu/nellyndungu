@@ -26,19 +26,7 @@
 - ⚙️ Mechanical Integration  
 - 🧠 System Intelligence
 
----
 
-### 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nellyndungu&show_icons=true&theme=radical)
-
-### 📝 Languages Used
-
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nellyndungu&layout=compact&theme=radical&langs_count=100)
-
-
-
----
 
 ### 📫 Contact
 📧 **Email:** [nellywambui060@gmail.com](mailto:nellywambui060@gmail.com)

@@ -1,35 +1,42 @@
-💡 **A system is only as smart as its integration — that's where I come in!!**
+💡 **A system is only as smart as its integration — that's where I come in!**
 
-👤 My name is **Nelly Ndung'u**. <br>
-🎓 For 5 years, I trained in Mechatronic Engineering at JKUAT —  
-> 🤖 learning how machines move,  
-> 🧠 how systems think,  
-> 💻 and how code breathes life into hardware.  
+👤 **Nelly Ndung'u**  
+🎓 Trained in **Mechatronic Engineering** at JKUAT (5 years)  
+> 🤖 Understanding how machines move  
+> 🧠 How systems think  
+> 💻 And how code brings hardware to life  
 
-🔄 Now, I bring them together.  
->  
-> 👩‍💻 I am not just a programmer.  
-> 🛠️ I am not just a designer.<br>
+🔄 I bring it all together.  
+> 👩‍💻 Not just a programmer  
+> 🛠️ Not just a designer  
 
-⚙️ I am a **Mechatronic Engineer**.  
->  
-> 🌐 I use **sensors** to sense the world,  
-> 🏗️ **CAD** to shape it,  
-> 🎮 and **code** to control it.  
->  
-> 🎯 My mission:  
-> 🧩 to build **smart systems** —  
-> 🕹️ where software commands,  
-> 🔧 hardware responds,  
-> 🤖 and machines become intelligent.
+⚙️ I am a **Mechatronic Engineer**  
+> 🌐 Using **sensors** to sense the world  
+> 🏗️ **CAD** to shape it  
+> 🎮 **Code** to control it  
+
+🎯 **Mission:**  
+🧩 Build **smart systems** where software commands, hardware responds, and machines become intelligent.
 
 ---
-🛠️ Core Skills
+
+### 🛠️ Core Skills
 - 🔌 Embedded Systems  
 - 📐 CAD Design  
 - ⚙️ Mechanical Integration  
 - 🧠 System Intelligence
 
 ---
-📫 Contact  
+
+### 📊 GitHub Stats
+
+![Score](https://github-readme-stats.vercel.app/api?username=nellyndungu&show_icons=true&theme=radical)
+
+### 📝 Most Used Languages
+
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nellyndungu&layout=compact&theme=radical)
+
+---
+
+### 📫 Contact
 📧 **Email:** [nellywambui060@gmail.com](mailto:nellywambui060@gmail.com)

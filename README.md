@@ -32,9 +32,9 @@
 
 ![Score](https://github-readme-stats.vercel.app/api?username=nellyndungu&show_icons=true&theme=radical)
 
-### 📝 Most Used Languages
+### 📝 Languages
 
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nellyndungu&layout=compact&theme=radical)
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nellyndungu&layout=compact&theme=radical&langs_count=100&hide=forks=false)
 
 ---
 

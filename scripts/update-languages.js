@@ -1,20 +1,25 @@
 const fs = require('fs');
 const axios = require('axios');
 
-const username = 'nellyndungu'; // 
 const readmePath = './README.md';
-const token = process.env.GITHUB_TOKEN; 
+const token = process.env.GITHUB_TOKEN; // GitHub automatically provides this token in Actions
+
+if (!token) {
+  console.error('GITHUB_TOKEN not found. Exiting.');
+  process.exit(1);
+}
 
 async function getRepos() {
-  const res = await axios.get(`https://api.github.com/users/${username}/repos?per_page=100`, {
-    headers: { Authorization: `token ${token}` }
+  // Use /user/repos to include all repos (private included if token has access)
+  const res = await axios.get('https://api.github.com/user/repos?per_page=100', {
+    headers: { Authorization: `Bearer ${token}` }
   });
   return res.data;
 }
 
 async function getLanguages(repo) {
   const res = await axios.get(repo.languages_url, {
-    headers: { Authorization: `token ${token}` }
+    headers: { Authorization: `Bearer ${token}` }
   });
   return res.data;
 }
@@ -22,6 +27,8 @@ async function getLanguages(repo) {
 (async () => {
   try {
     const repos = await getRepos();
+    console.log(`Found ${repos.length} repos`);
+
     const languageTotals = {};
 
     for (const repo of repos) {
@@ -32,6 +39,12 @@ async function getLanguages(repo) {
     }
 
     const totalBytes = Object.values(languageTotals).reduce((a, b) => a + b, 0);
+
+    if (totalBytes === 0) {
+      console.log('No languages found in repos. Exiting.');
+      return;
+    }
+
     const languagePercentages = Object.entries(languageTotals)
       .map(([lang, bytes]) => ({ lang, percentage: ((bytes / totalBytes) * 100).toFixed(2) }))
       .sort((a, b) => b.percentage - a.percentage);
@@ -59,6 +72,6 @@ async function getLanguages(repo) {
     fs.writeFileSync(readmePath, readme);
     console.log('README updated with language stats!');
   } catch (error) {
-    console.error(error);
+    console.error('Error fetching repos or languages:', error.response ? error.response.data : error.message);
   }
 })();
